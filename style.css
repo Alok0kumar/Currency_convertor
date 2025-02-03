@@ -1,0 +1,85 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   min-height: 100vh;
+    background-color: rgb(205, 229, 219);
+}
+.container{
+    display: flex;
+    border:none;
+    width: 300px;
+    height: 220px;
+    background-color: white;
+    
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 250px;
+    box-shadow: 0 0 20px brown;
+
+
+
+}
+.box1{
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+.value1{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.box2{
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+.value2{
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+.button-container{
+    margin-left: 95px;
+    margin-top: 20px;
+}
+.custom-button{
+    border: none;
+    width: 70px;
+    height: 20px;
+    padding-bottom: 5px;
+    background-color: skyblue;
+    border-radius: 5px;
+} */
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  .converter {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  .result {
+    font-weight: bold;
+    margin-top: 10px;
+  }
